@@ -1,0 +1,105 @@
+:root {
+    --primary-bg: #95d6ea;
+    --secondary-bg: #7bc7dd;
+    --accent-1: #15719f;
+    --accent-2: #62a1c7;
+    --text-primary: #15719f;
+    --text-secondary: #528ab4;
+    --card-bg: rgba(255, 255, 255, 0.9);
+    --card-border: rgba(82, 138, 180, 0.3);
+    --gradient: linear-gradient(135deg, #95d6ea 0%, #7bc7dd 100%);
+}
+
+/* Base Styles */
+QWidget {
+    background: var(--primary-bg);
+    color: var(--text-primary);
+    font-family: 'Roboto Medium';
+}
+
+/* Weather Card */
+#weatherCard {
+    background: var(--card-bg);
+    border-radius: 16px;
+    border: 1px solid var(--card-border);
+    padding: 24px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+}
+
+QLabel#tempLabel {
+    color: var(--accent-1);
+    font-size: 48px;
+    font-weight: 700;
+    text-shadow: 0 2px 4px rgba(21, 113, 159, 0.1);
+}
+
+QLabel#conditionLabel {
+    color: var(--text-secondary);
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+
+/* Info Boxes */
+QWidget.info-box {
+    background: var(--secondary-bg);
+    border-radius: 12px;
+    padding: 16px;
+    border: 1px solid var(--card-border);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+/* Buttons */
+QPushButton {
+    background: #62a1c7;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 12px 24px;
+    font-size: 14px;
+    transition: all 0.3s ease;
+}
+
+QPushButton:hover {
+    background: #528ab4;
+    transform: translateY(-1px);
+    box-shadow: 0 4px 6px rgba(98, 161, 199, 0.2);
+}
+
+/* Input Fields */
+QLineEdit {
+    background: #ffffff;
+    border: 2px solid #7bc7dd;
+    border-radius: 8px;
+    padding: 12px;
+    color: var(--accent-1);
+    font-size: 16px;
+}
+
+QLineEdit:focus {
+    border-color: #15719f;
+    box-shadow: 0 0 0 3px rgba(21, 113, 159, 0.1);
+}
+
+
+#tempLabel {
+    font-size: 64px;
+    color: #333333;
+    font-weight: bold;
+}
+
+#forecastTitle {
+    color: #666666;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+#forecastCard {
+    background-color: #F5F5F5;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 5px;
+    color: #333333;
+}
+
+/* Keep other styles similar to dark.css but with light colors */

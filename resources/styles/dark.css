@@ -1,0 +1,65 @@
+#weatherCard {
+    background-color: #2A2A2A;
+    border-radius: 15px;
+    padding: 20px;
+}
+
+#tempLabel {
+    font-size: 64px;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+#forecastTitle {
+    color: #AAAAAA;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+#forecastCard {
+    background-color: #333333;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 5px;
+    color: #FFFFFF;
+}
+
+QGroupBox {
+    color: #FFFFFF;
+    border: 1px solid #444444;
+    margin-top: 20px;
+}
+
+QGroupBox::title {
+    color: #AAAAAA;
+    subcontrol-origin: margin;
+    left: 10px;
+    padding: 0 3px;
+}
+
+QComboBox {
+    background-color: #333333;
+    color: #FFFFFF;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+#premiumButton {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    border-radius: 8px;
+    margin-top: 15px;
+}
+
+QPushButton[navButton="true"] {
+    color: #AAAAAA;
+    font-size: 14px;
+    padding: 8px 16px;
+}
+
+QPushButton[navButton="true"]:hover {
+    background-color: #333333;
+    border-radius: 5px;
+}

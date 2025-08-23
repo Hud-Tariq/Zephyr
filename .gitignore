@@ -1,0 +1,48 @@
+﻿# Qt Creator specific files
+*.pro.user
+*.pro.user.*
+*.qbs.user
+*.qbs.user.*
+
+# Build directories (very important!)
+/debug/
+/release/
+/build/
+build-*/
+
+# CMake and other build system files
+CMakeLists.txt.user
+*.creator.user
+*.creator.user.local
+*.qmlproject.user
+*.qmlproject.user.local
+
+# Generated files from Qt's tools (moc, uic, rcc)
+ui_*.h
+moc_*.cpp
+qrc_*.cpp
+
+# Compiled object files and libraries
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.so.*
+*.dll
+*.dylib
+
+# Executables
+*.exe
+
+# Makefiles
+Makefile*
+
+# Other common files to ignore
+.vs/
+.vscode/
+xcuserdata/
+*~
+*.swp
+Thumbs.db
+.DS_Store
