@@ -71,7 +71,7 @@ Zephyr is a feature-rich and user-friendly weather application that provides rea
 
 ### Configuration
 
-Zephyr requires an API key from a weather data provider to fetch weather information. The application expects the API key to be defined in `src/apikey.h`.
+Zephyr requires an API key from a weather data provider (openweather api (paid tier)) to fetch weather information. The application expects the API key to be defined in `src/apikey.h`.
 
 1.  Create a file named `apikey.h` in the `src` directory.
 2.  Add the following content to the file:
@@ -93,13 +93,10 @@ Once you have built and configured the application, you can run the executable f
 *   **Maps:** Explore interactive weather maps.
 *   **Alerts:** View any active weather alerts.
 
-## Screenshots
-
-*(Placeholders for application screenshots)*
-
-| Light Theme                               | Dark Theme                               |
-| ----------------------------------------- | ---------------------------------------- |
-| ![Light Theme Screenshot](placeholder.png) | ![Dark Theme Screenshot](placeholder.png) |
+---
+## Issue
+Hardcoded svg and png paths (Qt issue)
+---
 
 ## Contributing
 
